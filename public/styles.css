@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.chat-container{
+    width: 350px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-box{
+    flex: 1;
+    padding: 15px;
+    background: #cfe8f0;
+    overflow-y: auto;
+}
+
+.input-container{
+    display: flex;
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+button{
+    width: 80px;
+    background: #4caf8d;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mensajes */
+
+.mensaje{
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+    width: fit-content;
+    max-width: 70%;
+}
+
+.enviado{
+    background: #dcf8c6;
+    margin-left: auto;
+}
+
+.recibido{
+    background: white;
+    margin-right: auto;
+}
